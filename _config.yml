@@ -1,5 +1,17 @@
 timezone:    Europe/Berlin
 future:      false
+# Base URL:
+# IMPORTANT: This setting is crucial for the site to work correctly.
+# Set this to the subpath of your site if you are deploying to a subdirectory.
+#
+# Examples:
+# - If your site is deployed at https://username.github.io/your-repo-name/,
+#   set baseurl to "/your-repo-name" (with a leading slash, no trailing slash).
+# - If your site is deployed at a custom domain root (e.g., https://www.example.com/),
+#   set baseurl to "" (empty string).
+#
+# The current value is set for the original GitHub Pages setup of this project.
+# ADAPT IT TO YOUR DEPLOYMENT ENVIRONMENT.
 # Set baseurl to the base path of the site eg "/mytalk"
 baseurl:     "/github-slideshow"
 # The allowed values are 'rouge', 'pygments' or null.
